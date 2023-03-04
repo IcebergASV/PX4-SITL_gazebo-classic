@@ -1,0 +1,760 @@
+<sdf version='1.7'>
+  <model name='WAM-V'>
+    <link name='wamv/base_link'>
+      <inertial>
+        <pose>-0.012146 -0 0.238057 0 -0 0</pose>
+        <mass>247</mass>
+        <inertia>
+          <ixx>219.26</ixx>
+          <ixy>4.31504e-17</ixy>
+          <ixz>3.87583</ixz>
+          <iyy>446.877</iyy>
+          <iyz>9.3061e-16</iyz>
+          <izz>498.167</izz>
+        </inertia>
+      </inertial>
+      <collision name='wamv/base_link_fixed_joint_lump__cpu_case_1_collision_collision'>
+        <pose>0.035 0 1.53 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.595 0.83 0.47</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__cpu_case_2_collision_collision_1'>
+        <pose>-0.45 0 1.438 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.375 0.64 0.28</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__left_float_collision_2'>
+        <pose>-0.4 1.03 0.2 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>4</length>
+            <radius>0.2</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__left_mid_float_collision_3'>
+        <pose>1.85 1.03 0.3 0 1.38 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.5</length>
+            <radius>0.17</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__left_front_float_collision_4'>
+        <pose>2.3 1.03 0.4 0 1.3 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.45</length>
+            <radius>0.12</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__front_left_beam_lower_collision_5'>
+        <pose>0.9 0.85 1 0.78 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.5</length>
+            <radius>0.04</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__front_left_beam_upper_collision_6'>
+        <pose>0.9 0.6 1.18 1.35 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.2</length>
+            <radius>0.04</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__mid_left_beam_lower_collision_7'>
+        <pose>-0.65 0.99 0.7 0.1 0.25 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.45</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__mid_left_beam_medium_collision_8'>
+        <pose>-0.57 0.87 1.05 0.75 0.25 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.32</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__mid_left_beam_upper_collision_9'>
+        <pose>-0.55 0.65 1.17 1.35 0.25 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.3</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__rear_left_beam_lower_collision_10'>
+        <pose>-0.74 1.03 0.7 0 -0.15 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.45</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__rear_left_beam_medium_collision_11'>
+        <pose>-0.79 0.91 1.05 0.75 -0.15 -0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.32</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__rear_left_beam_upper_collision_12'>
+        <pose>-0.81 0.67 1.18 1.45 -0.15 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.3</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__left_joint_collision_13'>
+        <pose>0.58 1.03 0.6 0 -0.6 0</pose>
+        <geometry>
+          <box>
+            <size>0.65 0.2 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__right_float_collision_14'>
+        <pose>-0.4 -1.03 0.2 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>4</length>
+            <radius>0.2</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__right_mid_float_collision_15'>
+        <pose>1.85 -1.03 0.3 0 1.38 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.5</length>
+            <radius>0.17</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__right_front_float_collision_16'>
+        <pose>2.3 -1.03 0.4 0 1.3 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.45</length>
+            <radius>0.12</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__front_right_beam_lower_collision_17'>
+        <pose>0.9 -0.85 1 -0.78 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.5</length>
+            <radius>0.04</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__front_right_beam_upper_collision_18'>
+        <pose>0.9 -0.6 1.18 -1.35 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.2</length>
+            <radius>0.04</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__mid_right_beam_lower_collision_19'>
+        <pose>-0.65 -0.99 0.7 -0.1 0.25 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.45</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__mid_right_beam_medium_collision_20'>
+        <pose>-0.57 -0.87 1.05 -0.75 0.25 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.32</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__mid_right_beam_upper_collision_21'>
+        <pose>-0.55 -0.65 1.17 -1.35 0.25 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.3</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__rear_right_beam_lower_collision_22'>
+        <pose>-0.74 -1.03 0.7 0 -0.15 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.45</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__rear_right_beam_medium_collision_23'>
+        <pose>-0.79 -0.91 1.05 -0.75 -0.15 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.32</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__rear_right_beam_upper_collision_24'>
+        <pose>-0.81 -0.67 1.18 -1.45 -0.15 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.3</length>
+            <radius>0.03</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__right_joint_collision_25'>
+        <pose>0.58 -1.03 0.6 0 -0.6 0</pose>
+        <geometry>
+          <box>
+            <size>0.65 0.2 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__top_base_collision_26'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.85 1 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__left_battery_collision_collision_27'>
+        <pose>0 1 0.6 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.6 0.4 0.31</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/base_link_fixed_joint_lump__right_battery_collision_collision_28'>
+        <pose>0 -1 0.6 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.6 0.4 0.31</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='wamv/base_link_fixed_joint_lump__cpu_cases_visual_visual'>
+        <pose>-0.077 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!--filename="file://$(rospack find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/cpu_cases/mesh/cpu_cases.dae"-->
+            <scale>1 1 1</scale>
+            <uri>model://cpu_cases/mesh/cpu_cases.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wamv/base_link_fixed_joint_lump__wamv/dummy_link_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!--filename="file://$(rospack find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/WAM-V-Base/mesh/WAM-V-Base.dae">-->
+            <scale>1 1 1</scale>
+            <uri>model://mesh/WAM-V-Base.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wamv/base_link_fixed_joint_lump__left_battery_visual_visual_2'>
+        <pose>0 -0.03 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!--filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/battery/mesh/battery.dae"-->
+            <uri>model://battery/mesh/battery.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wamv/base_link_fixed_joint_lump__lidar_wamv_visual_visual_3'>
+        <pose>0.5 0 2 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1</length>
+            <radius>0.025</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+      <visual name='wamv/base_link_fixed_joint_lump__right_battery_visual_visual_4'>
+        <pose>0 -2.03 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/battery/mesh/battery.dae"-->
+            <uri>model://battery/mesh/battery.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <sensor name='multibeam_sensor_lidar_wamv' type='ray'>
+        <visualize>1</visualize>
+        <update_rate>40</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>1081</samples>
+              <resolution>1</resolution>
+              <min_angle>-2.35619</min_angle>
+              <max_angle>2.35619</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.06</min>
+            <max>20</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </ray>
+        <plugin name='multibeam_simulator' filename='libgazebo_ros_laser.so'>
+          <topicName>wamv/sensors/lidars/lidar_wamv/scan</topicName>
+          <frameName>wamv/lidar_wamv_link</frameName>
+        </plugin>
+        <pose>0.5 0 2 0 -0 0</pose>
+      </sensor>
+    </link>
+    <joint name='wamv/gps_wamv_joint' type='revolute'>
+      <pose relative_to='wamv/base_link'>-0.85 0 1.3 0 -0 0</pose>
+      <parent>wamv/base_link</parent>
+      <child>wamv/gps_wamv_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>1000</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wamv/gps_wamv_link'>
+      <pose relative_to='wamv/gps_wamv_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.006458</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.006458</iyy>
+          <iyz>0</iyz>
+          <izz>0.01125</izz>
+        </inertia>
+      </inertial>
+      <collision name='wamv/gps_wamv_link_fixed_joint_lump__gps_wamv_collision_base_collision'>
+        <pose>0 0 0.025 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.05</length>
+            <radius>0.015</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='wamv/gps_wamv_link_fixed_joint_lump__gps_wamv_collision_antenna_collision_1'>
+        <pose>0 0 0.11 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1</length>
+            <radius>0.15</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='wamv/gps_wamv_link_fixed_joint_lump__gps_wamv_visual_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!--filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/gps/mesh/gps.dae"-->
+            <scale>1 1 1</scale>
+            <uri>model://gps/mesh/gps.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wamv/imu_wamv_joint' type='revolute'>
+      <pose relative_to='wamv/base_link'>0.3 -0.2 1.3 0 -0 0</pose>
+      <parent>wamv/base_link</parent>
+      <child>wamv/imu_wamv_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>1000</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wamv/imu_wamv_link'>
+      <pose relative_to='wamv/imu_wamv_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>8.3e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>8.3e-05</iyy>
+          <iyz>0</iyz>
+          <izz>0.0125</izz>
+        </inertia>
+      </inertial>
+      <visual name='wamv/imu_wamv_link_fixed_joint_lump__imu_wamv_visual_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.025 0.005</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wamv/left_chasis_engine_joint' type='revolute'>
+      <pose relative_to='wamv/base_link'>-2.37378 1.02713 0.318237 0 -0 0</pose>
+      <parent>wamv/base_link</parent>
+      <child>wamv/left_engine_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.14159</lower>
+          <upper>3.14159</upper>
+          <effort>10</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wamv/left_engine_link'>
+      <pose relative_to='wamv/left_chasis_engine_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>15</mass>
+        <inertia>
+          <ixx>0.889245</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.911125</iyy>
+          <iyz>0</iyz>
+          <izz>0.078125</izz>
+        </inertia>
+      </inertial>
+      <collision name='wamv/left_engine_link_fixed_joint_lump__left_engine_vertical_axis_collision_collision'>
+        <pose>-0.16 0 -0.24 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.15 0.83</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/left_engine_link_fixed_joint_lump__left_engine_rear_end_collision_collision_1'>
+        <pose>-0.34 0 0.12 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.12 0.15 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='wamv/left_engine_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/engine/mesh/engine.dae"-->
+            <scale>1 1 1</scale>
+            <uri>model://mesh/engine.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wamv/left_engine_propeller_joint' type='revolute'>
+      <pose relative_to='wamv/left_engine_link'>-0.278156 0 -0.509371 0 -0 0</pose>
+      <parent>wamv/left_engine_link</parent>
+      <child>wamv/left_propeller_link</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.05</damping>
+          <friction>0.05</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wamv/left_propeller_link'>
+      <pose relative_to='wamv/left_engine_propeller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.008545</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.008545</iyy>
+          <iyz>0</iyz>
+          <izz>0.0144</izz>
+        </inertia>
+      </inertial>
+      <collision name='wamv/left_propeller_link_fixed_joint_lump__left_propeller_collision_collision'>
+        <pose>-0.08 0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.18</length>
+            <radius>0.24</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='wamv/left_propeller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!--filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/propeller/mesh/propeller.dae"-->
+            <scale>1 1 1</scale>
+            <uri>model://mesh/propeller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wamv/right_chasis_engine_joint' type='revolute'>
+      <pose relative_to='wamv/base_link'>-2.37378 -1.02713 0.318237 0 -0 0</pose>
+      <parent>wamv/base_link</parent>
+      <child>wamv/right_engine_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.14159</lower>
+          <upper>3.14159</upper>
+          <effort>10</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wamv/right_engine_link'>
+      <pose relative_to='wamv/right_chasis_engine_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>15</mass>
+        <inertia>
+          <ixx>0.889245</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.911125</iyy>
+          <iyz>0</iyz>
+          <izz>0.078125</izz>
+        </inertia>
+      </inertial>
+      <collision name='wamv/right_engine_link_fixed_joint_lump__right_engine_vertical_axis_collision_collision'>
+        <pose>-0.16 0 -0.24 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.15 0.83</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='wamv/right_engine_link_fixed_joint_lump__right_engine_rear_end_collision_collision_1'>
+        <pose>-0.34 0 0.12 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.12 0.15 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='wamv/right_engine_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/engine/mesh/engine.dae"-->
+            <scale>1 1 1</scale>
+            <uri>model://mesh/engine.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wamv/right_engine_propeller_joint' type='revolute'>
+      <pose relative_to='wamv/right_engine_link'>-0.278156 0 -0.509371 0 -0 0</pose>
+      <parent>wamv/right_engine_link</parent>
+      <child>wamv/right_propeller_link</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.05</damping>
+          <friction>0.05</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wamv/right_propeller_link'>
+      <pose relative_to='wamv/right_engine_propeller_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.008545</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.008545</iyy>
+          <iyz>0</iyz>
+          <izz>0.0144</izz>
+        </inertia>
+      </inertial>
+      <collision name='wamv/right_propeller_link_fixed_joint_lump__right_propeller_collision_collision'>
+        <pose>-0.08 0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.18</length>
+            <radius>0.24</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='wamv/right_propeller_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+          <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/propeller/mesh/propeller.dae"-->
+            <scale>1 1 1</scale>
+            <uri>model://mesh/propeller.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <plugin name='wamv_gazebo_thrust' filename='libusv_gazebo_thrust_plugin.so'>
+      <cmdTimeout>1.0</cmdTimeout>
+      <publisherRate>100.0</publisherRate>
+      <robotNamespace>wamv</robotNamespace>
+      <thruster>
+        <linkName>wamv/left_propeller_link</linkName>
+        <propJointName>wamv/left_engine_propeller_joint</propJointName>
+        <engineJointName>wamv/left_chasis_engine_joint</engineJointName>
+        <cmdTopic>thrusters/left_thrust_cmd</cmdTopic>
+        <angleTopic>thrusters/left_thrust_angle</angleTopic>
+        <enableAngle>1</enableAngle>
+        <mappingType>1</mappingType>
+        <maxCmd>1.0</maxCmd>
+        <maxForceFwd>250.0</maxForceFwd>
+        <maxForceRev>-100.0</maxForceRev>
+        <maxAngle>1.5707963267948966</maxAngle>
+      </thruster>
+      <thruster>
+        <linkName>wamv/right_propeller_link</linkName>
+        <propJointName>wamv/right_engine_propeller_joint</propJointName>
+        <engineJointName>wamv/right_chasis_engine_joint</engineJointName>
+        <cmdTopic>thrusters/right_thrust_cmd</cmdTopic>
+        <angleTopic>thrusters/right_thrust_angle</angleTopic>
+        <enableAngle>1</enableAngle>
+        <mappingType>1</mappingType>
+        <maxCmd>1.0</maxCmd>
+        <maxForceFwd>250.0</maxForceFwd>
+        <maxForceRev>-100.0</maxForceRev>
+        <maxAngle>1.5707963267948966</maxAngle>
+      </thruster>
+    </plugin>
+    <plugin name='usv_dynamics_wamv_dynamics_plugin' filename='libusv_gazebo_dynamics_plugin.so'>
+      <bodyName>wamv/base_link</bodyName>
+      <waterLevel>0</waterLevel>
+      <waterDensity>997.8</waterDensity>
+      <xDotU>0.0</xDotU>
+      <yDotV>0.0</yDotV>
+      <nDotR>0.0</nDotR>
+      <xU>51.3</xU>
+      <xUU>72.4</xUU>
+      <yV>40.0</yV>
+      <yVV>0.0</yVV>
+      <zW>500.0</zW>
+      <kP>50.0</kP>
+      <mQ>50.0</mQ>
+      <nR>400.0</nR>
+      <nRR>0.0</nRR>
+      <hullRadius>0.213</hullRadius>
+      <boatWidth>2.4</boatWidth>
+      <boatLength>4.9</boatLength>
+      <length_n>2</length_n>
+      <wave_model>ocean_waves</wave_model>
+    </plugin>
+    <plugin name='gps_plugin_gps_wamv' filename='libgazebo_gps_plugin.so'>
+      <robotNamespace>wamv</robotNamespace>
+      <updateRate>40</updateRate>
+      <alwaysOn>1</alwaysOn>
+      <bodyName>wamv/gps_wamv_link</bodyName>
+      <frameId>wamv/gps_wamv_link</frameId>
+      <topic>wamv/sensors/gps/gps/fix</topic>
+      <gpsNoise>0</gpsNoise>
+      <velocityTopicName>wamv/sensors/gps/gps/fix_velocity</velocityTopicName>
+      <useWorldSphericalCoordinates>1</useWorldSphericalCoordinates>
+    </plugin>
+    <static>0</static>
+    <plugin name='imu_plugin_imu_wamv' filename='libgazebo_imu_plugin.so'>
+      <robotNamespace>wamv</robotNamespace>
+      <updateRate>40</updateRate>
+      <bodyName>wamv/imu_wamv_link</bodyName>
+      <imuTopic>wamv/sensors/imu/imu/data</imuTopic>
+      <serviceName>wamv/sensors/imu_service</serviceName>
+      <frameId>wamv/imu_wamv_link</frameId>
+      <alwaysOn>1</alwaysOn>
+      <gyroscopeNoiseDensity>0.00</gyroscopeNoiseDensity>
+      <gyroscopeRandomWalk>0.00</gyroscopeRandomWalk>
+      <gyroscopeBiasCorrelationTime>0.00</gyroscopeBiasCorrelationTime>
+      <gyroscopeTurnOnBiasSigma>0.00</gyroscopeTurnOnBiasSigma>
+      <accelerometerNoiseDensity>0.00</accelerometerNoiseDensity>
+      <accelerometerRandomWalk>0.00</accelerometerRandomWalk>
+      <accelerometerBiasCorrelationTime>0.00</accelerometerBiasCorrelationTime>
+      <accelerometerTurnOnBiasSigma>0.00</accelerometerTurnOnBiasSigma>
+    </plugin>
+  </model>
+</sdf>
