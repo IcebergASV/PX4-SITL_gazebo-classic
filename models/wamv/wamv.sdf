@@ -283,7 +283,7 @@
           <mesh>
           <!--filename="file://$(rospack find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/WAM-V-Base/mesh/WAM-V-Base.dae">-->
             <scale>1 1 1</scale>
-            <uri>model://mesh/WAM-V-Base.dae</uri>
+            <uri>model://wamv/mesh/WAM-V-Base.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -502,7 +502,7 @@
           <mesh>
           <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/engine/mesh/engine.dae"-->
             <scale>1 1 1</scale>
-            <uri>model://mesh/engine.dae</uri>
+            <uri>model://wamv/mesh/engine.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -556,7 +556,7 @@
           <mesh>
           <!--filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/propeller/mesh/propeller.dae"-->
             <scale>1 1 1</scale>
-            <uri>model://mesh/propeller.dae</uri>
+            <uri>model://wamv/mesh/propeller.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -615,7 +615,7 @@
           <mesh>
           <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/engine/mesh/engine.dae"-->
             <scale>1 1 1</scale>
-            <uri>model://mesh/engine.dae</uri>
+            <uri>model://wamv/mesh/engine.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -669,7 +669,7 @@
           <mesh>
           <!-- filename="file://$(find px4)/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/propeller/mesh/propeller.dae"-->
             <scale>1 1 1</scale>
-            <uri>model://mesh/propeller.dae</uri>
+            <uri>model://wamv/mesh/propeller.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -727,34 +727,38 @@
       <length_n>2</length_n>
       <wave_model>ocean_waves</wave_model>
     </plugin>
-    <plugin name='gps_plugin_gps_wamv' filename='libgazebo_gps_plugin.so'>
-      <robotNamespace>wamv</robotNamespace>
-      <updateRate>40</updateRate>
-      <alwaysOn>1</alwaysOn>
-      <bodyName>wamv/gps_wamv_link</bodyName>
-      <frameId>wamv/gps_wamv_link</frameId>
-      <topic>wamv/sensors/gps/gps/fix</topic>
-      <gpsNoise>0</gpsNoise>
-      <velocityTopicName>wamv/sensors/gps/gps/fix_velocity</velocityTopicName>
-      <useWorldSphericalCoordinates>1</useWorldSphericalCoordinates>
-    </plugin>
+    <sensor name='wamv_gps' type='gps'>
+      <plugin name='gps_plugin_gps_wamv' filename='libgazebo_gps_plugin.so'>
+        <robotNamespace>wamv</robotNamespace>
+        <updateRate>40</updateRate>
+        <alwaysOn>1</alwaysOn>
+        <bodyName>wamv/gps_wamv_link</bodyName>
+        <frameId>wamv/gps_wamv_link</frameId>
+        <topic>wamv/sensors/gps/gps/fix</topic>
+        <gpsNoise>0</gpsNoise>
+        <velocityTopicName>wamv/sensors/gps/gps/fix_velocity</velocityTopicName>
+        <useWorldSphericalCoordinates>1</useWorldSphericalCoordinates>
+      </plugin>
+    </sensor>
     <static>0</static>
-    <plugin name='imu_plugin_imu_wamv' filename='libgazebo_imu_plugin.so'>
-      <robotNamespace>wamv</robotNamespace>
-      <updateRate>40</updateRate>
-      <bodyName>wamv/imu_wamv_link</bodyName>
-      <imuTopic>wamv/sensors/imu/imu/data</imuTopic>
-      <serviceName>wamv/sensors/imu_service</serviceName>
-      <frameId>wamv/imu_wamv_link</frameId>
-      <alwaysOn>1</alwaysOn>
-      <gyroscopeNoiseDensity>0.00</gyroscopeNoiseDensity>
-      <gyroscopeRandomWalk>0.00</gyroscopeRandomWalk>
-      <gyroscopeBiasCorrelationTime>0.00</gyroscopeBiasCorrelationTime>
-      <gyroscopeTurnOnBiasSigma>0.00</gyroscopeTurnOnBiasSigma>
-      <accelerometerNoiseDensity>0.00</accelerometerNoiseDensity>
-      <accelerometerRandomWalk>0.00</accelerometerRandomWalk>
-      <accelerometerBiasCorrelationTime>0.00</accelerometerBiasCorrelationTime>
-      <accelerometerTurnOnBiasSigma>0.00</accelerometerTurnOnBiasSigma>
-    </plugin>
+    <sensor name='wamv_imu' type='imu'>
+      <plugin name='imu_plugin_imu_wamv' filename='libgazebo_imu_plugin.so'>
+        <robotNamespace>wamv</robotNamespace>
+        <updateRate>40</updateRate>
+        <bodyName>wamv/imu_wamv_link</bodyName>
+        <imuTopic>wamv/sensors/imu/imu/data</imuTopic>
+        <serviceName>wamv/sensors/imu_service</serviceName>
+        <frameId>wamv/imu_wamv_link</frameId>
+        <alwaysOn>1</alwaysOn>
+        <gyroscopeNoiseDensity>0.00</gyroscopeNoiseDensity>
+        <gyroscopeRandomWalk>0.00</gyroscopeRandomWalk>
+        <gyroscopeBiasCorrelationTime>0.00</gyroscopeBiasCorrelationTime>
+        <gyroscopeTurnOnBiasSigma>0.00</gyroscopeTurnOnBiasSigma>
+        <accelerometerNoiseDensity>0.00</accelerometerNoiseDensity>
+        <accelerometerRandomWalk>0.00</accelerometerRandomWalk>
+        <accelerometerBiasCorrelationTime>0.00</accelerometerBiasCorrelationTime>
+        <accelerometerTurnOnBiasSigma>0.00</accelerometerTurnOnBiasSigma>
+      </plugin>
+    </sensor>
   </model>
 </sdf>
